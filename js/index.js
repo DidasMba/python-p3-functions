@@ -28,6 +28,9 @@ function greet(name) {
 function greetWithDefault(name = "programmer") {
   console.log(`Hello, ${name}!`);
 }
+greet()
+
+greet("Sunny")
 
 /*
   You should be able to call this function with two arguments and get back its return value:
